@@ -41,7 +41,7 @@ preview = true
 quote-style = "double"
 
 [tool.taskipy.tasks]
-run = "fastapi dev src/fast_zero/app.py"
+run = "fastapi dev src/fast_zero/app.py --host 0.0.0.0"
 pre_test = "task lint"
 test = "pytest --cov=src/fast_zero -vv"
 post_test = "coverage report"
