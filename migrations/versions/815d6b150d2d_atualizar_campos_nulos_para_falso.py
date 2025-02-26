@@ -1,16 +1,16 @@
-"""update users field updated_at
+"""atualizar campos nulos para falso
 
-Revision ID: f55cf27081fa
-Revises: f2877108289e
-Create Date: 2025-02-17 22:09:09.450950
+Revision ID: 815d6b150d2d
+Revises: f55cf27081fa
+Create Date: 2025-02-25 20:19:25.088844
 
 """
 
 from typing import Sequence, Union
 
 # revision identifiers, used by Alembic.
-revision: str = "f55cf27081fa"
-down_revision: Union[str, None] = "f2877108289e"
+revision: str = "815d6b150d2d"
+down_revision: Union[str, None] = "f55cf27081fa"
 branch_labels: Union[str, Sequence[str], None] = None
 depends_on: Union[str, Sequence[str], None] = None
 
